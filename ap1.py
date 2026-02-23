@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
+import sklearn  # <--- Add this specifically
 
 # 1. Load your saved model and scaler
 try:
